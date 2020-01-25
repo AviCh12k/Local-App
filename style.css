@@ -52,6 +52,9 @@ nav #brand_name{
     height: 90vh;
     min-width: 100vw;
 }
+#sec-one{
+    height:90vh;
+}
 #sec-one #container{
     position: absolute;
     z-index: 1;
@@ -60,6 +63,65 @@ nav #brand_name{
 }
 #sec-one #container .first-line{
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(214, 79, 203);
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+#sec-one #container .second-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+.search-bar{
+    background-color: white;
+    padding: 4px;
+    border-radius: 50px;
+    
+}
+.search-bar input,.search-bar .dropdown,.search-bar .btn{
+    border-radius: 50px;
+    margin: 0;
+}
+#sec-two{
+    background-color: rgb(247, 247, 247);
+    padding: 100px 0 0;
+}
+#sec-two .first-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: rgb(248, 19, 134);
+    letter-spacing: 3px;
+    text-align: center;
+}
+#sec-two .second-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+    font-size: 30px;
+    margin: 10px 0 50px;
+    text-align: center;
+}
+#sec-two .card{
+    /* background-color: rgb(214, 214, 243); */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /* margin: 0 5px;/ */
+}
+#sec-two .card i{
+    text-align: center;
+    background-color: rgb(214, 214, 243);
+    padding: 10px;
+    font-size: 35px;
+    border-radius: 50%;
+    margin: 50px 0 20px ;
+}
+#sec-two .card .card-body h5{
+    font-weight: bolder;
+}
+#sec-three{
+    background-color: rgb(218, 15, 218);
+    position: relative;
+    z-index: 2;
 }
