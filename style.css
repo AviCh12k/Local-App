@@ -43,3 +43,23 @@ nav #brand_name{
 #sec-one-carousel{
     position: absolute;
 }
+.carousel-inner{
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.carousel-inner img{
+    height: 90vh;
+    min-width: 100vw;
+}
+#sec-one #container{
+    position: absolute;
+    z-index: 1;
+    /* background-color: red; */
+    height: 90vh;
+}
+#sec-one #container .first-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(214, 79, 203);
+}
