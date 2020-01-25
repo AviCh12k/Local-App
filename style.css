@@ -1,3 +1,6 @@
+body::-webkit-scrollbar{
+    display: none;
+}
 nav #brand_name{
     font-family: 'Yeseva One', cursive;
     font-size: 30px;
@@ -33,4 +36,10 @@ nav #brand_name{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     opacity: .5;
+}
+#sec-one{
+    position: relative;
+}
+#sec-one-carousel{
+    position: absolute;
 }
