@@ -139,6 +139,19 @@ nav #brand_name{
     font-size: 30px;
 }
 .guides a{
-    font-size: small;
+    font-size: medium;
     color: rgb(128, 128, 128);
+}
+#sec-three #place-gallery .image{
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+#sec-three #place-gallery .image img{
+    height: 100%;
+}
+#sec-three #place-gallery .image h1{
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
 }
