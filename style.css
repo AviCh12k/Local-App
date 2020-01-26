@@ -87,7 +87,7 @@ nav #brand_name{
 }
 #sec-two{
     background-color: rgb(247, 247, 247);
-    padding: 100px 0 0;
+    padding: 100px 0 40px;
 }
 #sec-two .first-line{
     font-family: 'Poppins', sans-serif;
@@ -107,6 +107,7 @@ nav #brand_name{
     /* background-color: rgb(214, 214, 243); */
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    border-radius: 10px;
     /* margin: 0 5px;/ */
 }
 #sec-two .card i{
@@ -121,7 +122,23 @@ nav #brand_name{
     font-weight: bolder;
 }
 #sec-three{
-    background-color: rgb(218, 15, 218);
-    position: relative;
-    z-index: 2;
+    padding: 100px 0 40px;
+}
+#sec-three #sub-container{
+    margin: 0;
+}
+#sec-three .first-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: rgb(42, 19, 248);
+    letter-spacing: 3px;
+}
+#sec-three .second-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+    font-size: 30px;
+}
+.guides a{
+    font-size: small;
+    color: rgb(128, 128, 128);
 }
