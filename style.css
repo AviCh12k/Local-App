@@ -160,7 +160,7 @@ nav #brand_name{
 }
 #sec-four{
     background-color: rgb(247, 247, 247);
-    padding: 100px 0 40px;
+    padding: 100px 0 60px;
 }
 #sec-four #sub-container{
     margin: 0;
@@ -175,4 +175,10 @@ nav #brand_name{
     font-family: 'Poppins', sans-serif;
     font-weight:800;
     font-size: 30px;
+}
+#sec-four .row{
+    margin-top: 50px;
+}
+#sec-five{
+    height: 500px;
 }
