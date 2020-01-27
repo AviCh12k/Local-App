@@ -122,7 +122,7 @@ nav #brand_name{
     font-weight: bolder;
 }
 #sec-three{
-    padding: 100px 0 40px;
+    padding: 100px 0 80px;
 }
 #sec-three #sub-container{
     margin: 0;
@@ -154,4 +154,25 @@ nav #brand_name{
     position: absolute;
     bottom: 0;
     z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+#sec-four{
+    background-color: rgb(247, 247, 247);
+    padding: 100px 0 40px;
+}
+#sec-four #sub-container{
+    margin: 0;
+}
+#sec-four .first-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: rgb(248, 19, 134);
+    letter-spacing: 3px;
+}
+#sec-four .second-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+    font-size: 30px;
 }
